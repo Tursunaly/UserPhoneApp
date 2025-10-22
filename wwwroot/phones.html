@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Телефоны</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h1>Телефоны</h1>
+    <a href="index.html">← Назад</a>
+
+    <h2>Добавить телефон</h2>
+    <input type="text" id="phoneNumber" placeholder="Номер телефона">
+    <input type="text" id="userId" placeholder="Id пользователя">
+    <button id="addPhoneBtn">Добавить</button>
+
+    <h2>Список телефонов</h2>
+    <table border="1" id="phonesTable">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Номер</th>
+                <th>UserId</th>
+                <th>Действия</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="scripts/phones.js"></script>
+</body>
+</html>
